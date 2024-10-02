@@ -1,7 +1,7 @@
 import type { EventArgs } from "./types";
 
 export interface ISubscriber{
-   update<T>(context: EventArgs): T | void; 
+   update(context: EventArgs): void; 
 }
 
 export interface IPublisher {

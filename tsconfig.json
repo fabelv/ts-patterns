@@ -8,19 +8,15 @@
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
-    "verbatimModuleSyntax": true,
 
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
-    "noUnusedLocals": true;
+    "noUnusedLocals": true,
     "noUnusedParameters": true,
 
-
-
-    /* If NOT transpiling with TypeScript: */
     "module": "preserve",
     "noEmit": true,
 

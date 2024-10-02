@@ -8,8 +8,9 @@ export class CounterSubscriber implements ISubscriber {
         this.logger = logger;
     }
 
-    update<T>(context: EventArgs): T | void {
+    update(context: EventArgs): void {
         this.logger.log(`${context.name}: ${context.data}`);
+
     }
 
 } 
